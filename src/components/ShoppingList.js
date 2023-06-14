@@ -26,7 +26,8 @@ function ShoppingList() {
 
   //adding a callback function to be passed down to ItemForm
   function handleAddItem(newItem) {
-    setItems([...items], newItem);
+    setItems([...items, newItem]);
+    console.log(newItem);
   }
 
   //adding a callback function to be passed down to item

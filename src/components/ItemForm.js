@@ -12,8 +12,10 @@ function ItemForm({ onAddItem }) {
       category: category,
       isInCart: false,
     };
-   
-    fetch("http://localhost:4000/items", {  //POST request
+    console.log(itemData)
+
+    fetch("http://localhost:4000/items", {
+      //POST request
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -22,7 +24,9 @@ function ItemForm({ onAddItem }) {
     })
       .then((r) => r.json())
       .then((newItem) => onAddItem(newItem));
+    
   }
+ 
 
   return (
     <form className="NewItem" onSubmit={handleSubmit}>

@@ -31,58 +31,22 @@
       "isInCart": false
     },
     {
-      "name": "Cassava Leaves",
+      "name": "flowers",
       "category": "Produce",
       "isInCart": false,
       "id": 6
     },
     {
-      "name": "Cassava Leaves",
+      "name": "Mangoes",
       "category": "Produce",
       "isInCart": false,
       "id": 7
     },
     {
-      "name": "Cassava Leaves",
-      "category": "Produce",
+      "name": "banga",
+      "category": "Dessert",
       "isInCart": false,
       "id": 8
-    },
-    {
-      "name": "Cassava Leaves",
-      "category": "Dairy",
-      "isInCart": false,
-      "id": 9
-    },
-    {
-      "name": "Cassava Leaves",
-      "category": "Dairy",
-      "isInCart": false,
-      "id": 10
-    },
-    {
-      "name": "Cassava Leaves",
-      "category": "Produce",
-      "isInCart": false,
-      "id": 11
-    },
-    {
-      "name": "Mangoes",
-      "category": "Dessert",
-      "isInCart": false,
-      "id": 12
-    },
-    {
-      "name": "Mangoes",
-      "category": "Dessert",
-      "isInCart": false,
-      "id": 13
-    },
-    {
-      "name": "Mangoes",
-      "category": "Dessert",
-      "isInCart": false,
-      "id": 14
     }
   ]
 }
